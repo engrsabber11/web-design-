@@ -1,0 +1,161 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: arial;
+}
+#shohan{
+	margin-left: 200px;
+	width: 1000px;
+}
+.main{
+	
+}
+.container{
+	width: 960px;
+	margin: 0 auto;
+}
+.header{
+	height: 70px;
+	background: #3D484E;
+}
+.logo img{
+	width: 65px;
+	padding: 5px;
+	float: left;
+}
+.menu{
+	float: right;
+	margin-top: 10px;
+	margin-right: 50px;
+}
+.menu ul{
+	list-style: none;
+}
+.menu ul li{
+	float: left;
+}
+.menu ul li a{
+	color: #fff;
+	padding: 10px;
+	text-decoration: none;
+	font-family: century Gothic;
+	font-size: 14px;
+}
+.menu ul li a:hover{}
+
+/*Start overlay*/
+.slider{
+	background: #252E35;
+}
+.bannar{
+ padding: 10px;
+}
+.bannar img{
+	width: 75%;
+	height: 75%;
+	border: 5px solid #3D484E;
+	overflow: hidden;
+}
+.overlay_images{
+	position: relative;
+    overflow: hidden; 
+}
+.bannar:hover .overlay {
+    top: 0;
+}
+.overlay{
+	 position: absolute;
+	background: rgba(0,0,0, .5);
+    width: 100%;
+    height: 100%;
+    top: -100%;
+    transition: .5s;
+}
+.overlay h3 {
+    margin-top: 13%;
+    text-align: center;
+    font-weight: normal;
+    max-width: 150px;
+}
+.overlay h3 a {
+    text-decoration: none;
+    display: block; 
+    padding: 20px;
+    color: #fff;
+    background: #3D484E;
+    border-radius: 5px;
+    font-weight: normal;
+    transition: .5s;
+}
+.overlay h3 a:hover {
+    background: #252E35;
+}
+.news{
+	background: #3d484e;
+	margin-bottom: -20px;
+}
+.news h2{
+	color: #fff;
+
+}
+/*Start content*/
+.content{
+	background: #252E35;
+	overflow: hidden;
+}
+.content h2{
+	text-align: center;
+    color: #fff;
+    padding: 10px;
+    font-size: 18px;
+}
+.content_text{
+	overflow: hidden;
+	color: #3D484E;
+}
+.box{
+	width: 220px;
+	float: left;
+	padding: 5px;
+	border: 3px solid #fff;
+	background: #3D484E;
+}
+.pic_box{
+	width: 220px;
+	height: 300px;
+	float: left;
+	padding: 5px;
+	border: 3px solid #fff;
+	background: #3D484E;
+	display: block;
+}
+.box p{
+	color: #fff;
+	padding: 7px;
+	text-align: left;
+}
+.pic_box img{
+	width: 100%;
+	height: 80%;
+	border: 3px solid;
+	border-radius: 50%;
+	transition:transform .5s;
+}
+.pic_box:hover img{
+	transform:scale(1.4,1.4);
+}
+
+.pic_box h2{
+	color: #fff;
+}
+.footer{
+	background: #0e0f17;
+	height: 50px;
+	margin-top: -20px;
+}
+.footer p{
+	text-align: center;
+	font-size: 18px;
+	color: #fff;
+	padding: 15px;
+}
